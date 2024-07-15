@@ -16,11 +16,11 @@ p {
 .banner {
   height: 100vh;
   background: linear-gradient(
-      0deg,
-      rgb(16, 16, 16) -19.5%,
-      rgba(16, 16, 16, 0) 100%
-    ),
-    url(./assets/hero-bg.png);
+    0deg,
+    rgb(16, 16, 16) -19.5%,
+    rgba(16, 16, 16, 0) 100%
+  );
+  background-image: url(./assets/hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,3 +111,49 @@ main {
   line-height: 20px;
 }
 /* End Favorite Brands section  */
+/* Star Footer Section  */
+footer {
+  max-width: 1366px;
+  color: rgb(16, 16, 16);
+  height: 350px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about-image {
+  width: 50%;
+}
+.about-image > img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.about-details {
+  text-align: center;
+  width: 50%;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-details > h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.about-details > p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.social > p {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.social-image > img {
+  height: 35px;
+  width: 35px;
+}
+/* End Footer Section  */
