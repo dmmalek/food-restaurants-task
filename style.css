@@ -66,3 +66,48 @@ p {
   line-height: 15px;
 }
 /* End Banner Section  */
+
+/* Start Favorite Brands section  */
+main {
+  max-width: 1056px;
+  margin: 50px auto;
+  color: rgb(16, 16, 16);
+}
+.card-heading {
+  text-align: center;
+}
+.card-heading > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 16px 0px;
+  opacity: 0.6;
+}
+.card-heading > h3 {
+  margin: 16px 0px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-box > div > img {
+  width: 300px;
+  height: 200px;
+}
+.card-details {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+}
+.card-details {
+  display: grid;
+  place-items: center;
+}
+.card-details > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+/* End Favorite Brands section  */
